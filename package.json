@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"@changesets/cli": "^2.27.1",
+		"father-build": "^1.22.5"
+	},
+	"scripts": {
+		"build": "pnpm --filter=@cfz/* run buiild",
+		"changeset": "changeset",
+		"version-packages": "changeset version"
+	}
+}
